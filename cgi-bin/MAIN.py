@@ -191,14 +191,7 @@ def main():
 
     print "<tr><th colspan=\"7\"><hr></th></tr>"
     
-    print "<tr><th colspan=\"7\">Welcome to my website, NZAquaPi. First let me explain the name... my initials are NZ, I am not from New Zealand. The name 'AquaPi' has been used by several who"
-    print "have created DIY aquarium controllers using a Raspberry Pi. I have built upon several ideas to design my own controller that I will be using to control my 6 foot (+ sump) freshwater aquarium."
-    print "This aquarium is being designed as an upgrade from our current 4 foot tank and is home to our 2 maclaey river turtles, Bruce and Lucy." 
-    print "<br><br>This site has been designed for 2 purposes. Firstly, to allow me to visually display and remotely control many of the tanks automated functions, such as water and air temperature control, "
-    print "humidity control, automated water changes and automated top off after water evaporation. The second purpose is to share with you my design and implemenation throughout this project, "
-    print "hopefully inspiring you to create your own DIY masterpiece. Although I purchased the tank and sump ready made (with bulkheads drilled), all of the cabinet/hood making, plumbing and electrical/electronic work I have done myself over the last 6 months."
-    print "I am slowly getting there, but have a ways to go.<br><br>Please have a browse of this site, subscribe to the emailing list and even post your comments/suggestings in the forum.<br><br>Thanks for stopping by, Nathan</th></tr>"
-    
+    print "<tr><th colspan=\"7\">Welcome to my website. </th></tr>"
     
     print "<tr>"
     print "<th rowspan=\"8\" colspan=\"3\"><br><img src=\"../images/camera.jpg\" id=\"camera\" width=\"80%\"/><br><br></th>"
