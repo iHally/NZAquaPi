@@ -71,13 +71,13 @@ Install the files/folders as follows:
 
 You also need to setup your rc.local as follows:
 
-exec 2> /tmp/rc.local.log
-exec 1>&2
-set -x
-sudo python /home/pi/NZAquaPi/NZAquaPi_GPIO_setup.py
-sudo python /home/pi/NZAquaPi/nzaquapi_daemon.py &
-sudo bash /home/pi/NZAquaPi/network_monitor.sh &
-exit 0
+- exec 2> /tmp/rc.local.log
+- exec 1>&2
+- set -x
+- sudo python /home/pi/NZAquaPi/NZAquaPi_GPIO_setup.py
+- sudo python /home/pi/NZAquaPi/nzaquapi_daemon.py &
+- sudo bash /home/pi/NZAquaPi/network_monitor.sh &
+- exit 0
 
 Then should be right to give it a go... try to to fry your GPIO ;) :P
 
