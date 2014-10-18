@@ -65,19 +65,19 @@ You will also need a few 3rd party apps to run this properly...
 7. phpBB (optional) - for forum portion of web front end
 
 Install the files/folders as follows:
-NZAquaPi to: /home/pi/NZAquaPi
-www to: /var/www
-cgi-bin to /usr/lib/cgi-bin
+- NZAquaPi to: /home/pi/NZAquaPi
+- www to: /var/www
+- cgi-bin to /usr/lib/cgi-bin
 
 You also need to setup your rc.local as follows:
 
-exec 2> /tmp/rc.local.log
-exec 1>&2
-set -x
-sudo python /home/pi/NZAquaPi/NZAquaPi_GPIO_setup.py
-sudo python /home/pi/NZAquaPi/nzaquapi_daemon.py &
-sudo bash /home/pi/NZAquaPi/network_monitor.sh &
-exit 0
+.exec 2> /tmp/rc.local.log
+.exec 1>&2
+.set -x
+.sudo python /home/pi/NZAquaPi/NZAquaPi_GPIO_setup.py
+.sudo python /home/pi/NZAquaPi/nzaquapi_daemon.py &
+.sudo bash /home/pi/NZAquaPi/network_monitor.sh &
+.exit 0
 
 Then should be right to give it a go... try to to fry your GPIO ;) :P
 
