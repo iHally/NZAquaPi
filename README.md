@@ -38,6 +38,15 @@ Useful guides:
 - eTape - http://www.adafruit.com/product/464
 - MCP3008 - http://www.geeklee.co.uk/rpi-mcp3008-tmp36-sqlite-lighttpd/
 
+After all connected, the GPIO will have connected to it:
+- 4x DS18B20s (1-wire, using only 1x pin for all)
+- 2x AM2302s (uses 2x pins)
+- MCP3008 (uses 4 of the SPI pins - MOSI, MISO, SCLK and CE0)
+- 6x PC fans via 4x MOSFETs (uses 4x pins)
+- 2x liquid solendoids via 2x MOSFETS (uses 2x pins)
+- 1x peristaltic pump via 1x MOSFET (uses 1x pin)
+- 2x status LEDs (left over pins, only 1 is considered 'needed' as a status LED)
+
 ----------
 SD card preparation:
 ----------
@@ -57,6 +66,6 @@ You will also need a few 3rd party apps to run this properly...
 
 
 
-
+GOOD LUCK!
 ----------------------------
-
+Nathan.
